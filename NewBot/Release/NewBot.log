@@ -1,0 +1,35 @@
+﻿Build started 6/26/2017 7:19:36 AM.
+     1>Project "F:\Game\NewBot\NewBot.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IF:\Game\libs\BWAPI/include /IF:\Game\libs\BWTAlib_2.2/include /Zi /nologo /W3 /WX- /MP /O2 /Oi /Oy- /GL /D NOMINMAX /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D EXAMPLEAIMODULE_EXPORTS /D _WINDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Dll.cpp Source\GameCommander.cpp Source\NewBot.cpp Source\SquadAttack.cpp Source\SquadManager.cpp
+         Dll.cpp
+         GameCommander.cpp
+         NewBot.cpp
+         SquadAttack.cpp
+         SquadManager.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Game\NewBot\Release\NewBot.dll" /INCREMENTAL:NO /NOLOGO F:\Game\libs\BWAPI/lib/BWAPI.lib F:\Game\libs\BWTAlib_2.2/lib/BWTA.lib "F:\Game\libs\BWTAlib_2.2/lib/libboost_system-vc120-mt-1_56.lib" "F:\Game\libs\BWTAlib_2.2/lib/libboost_thread-vc120-mt-1_56.lib" "F:\Game\libs\BWTAlib_2.2/lib/libCGAL-vc120-mt-4.4.lib" "F:\Game\libs\BWTAlib_2.2/lib/libgmp-10.lib" "F:\Game\libs\BWTAlib_2.2/lib/libmpfr-4.lib" "F:\Game\libs\BWTAlib_2.2/lib/libboost_filesystem-vc120-mt-1_56.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Game\NewBot\Release\NewBot.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\NewBot.lib" /MACHINE:X86 /SAFESEH /DLL Release\BuildOrderManager.obj
+         Release\Dll.obj
+         Release\GameCommander.obj
+         Release\InformationManager.obj
+         Release\NewBot.obj
+         Release\Squad.obj
+         Release\SquadAttack.obj
+         Release\SquadBuild.obj
+         Release\SquadGather.obj
+         Release\SquadGatherGas.obj
+         Release\SquadGatherMin.obj
+         Release\SquadManager.obj
+         Release\SquadProduce.obj
+         Release\SquadScout.obj
+         Release\StrategyManager.obj
+         Release\SupplyDepotManager.obj
+            Creating library Release\NewBot.lib and object Release\NewBot.exp
+         Generating code
+         Finished generating code
+         NewBot.vcxproj -> F:\Game\NewBot\Release\NewBot.dll
+     1>Done Building Project "F:\Game\NewBot\NewBot.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.13
